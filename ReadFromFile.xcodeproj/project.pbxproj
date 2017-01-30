@@ -12,6 +12,8 @@
 		D3D4DB051E3E250200464A2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D4DB031E3E250200464A2A /* Main.storyboard */; };
 		D3D4DB071E3E250400464A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D4DB061E3E250400464A2A /* Assets.xcassets */; };
 		D3D4DB0A1E3E250500464A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D4DB081E3E250500464A2A /* LaunchScreen.storyboard */; };
+		D3D4DB121E3F6D1E00464A2A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4DB111E3F6D1E00464A2A /* TableViewController.swift */; };
+		D3D4DB141E3F778800464A2A /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3D4DB131E3F778800464A2A /* text.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D3D4DB061E3E250400464A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D4DB091E3E250500464A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D4DB0B1E3E250500464A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D4DB111E3F6D1E00464A2A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D3D4DB131E3F778800464A2A /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				D3D4DAFF1E3E24FD00464A2A /* AppDelegate.swift */,
 				D3D4DB011E3E250000464A2A /* ViewController.swift */,
+				D3D4DB111E3F6D1E00464A2A /* TableViewController.swift */,
+				D3D4DB131E3F778800464A2A /* text.txt */,
 				D3D4DB031E3E250200464A2A /* Main.storyboard */,
 				D3D4DB061E3E250400464A2A /* Assets.xcassets */,
 				D3D4DB081E3E250500464A2A /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				D3D4DB0A1E3E250500464A2A /* LaunchScreen.storyboard in Resources */,
 				D3D4DB071E3E250400464A2A /* Assets.xcassets in Resources */,
 				D3D4DB051E3E250200464A2A /* Main.storyboard in Resources */,
+				D3D4DB141E3F778800464A2A /* text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D4DB021E3E250000464A2A /* ViewController.swift in Sources */,
+				D3D4DB121E3F6D1E00464A2A /* TableViewController.swift in Sources */,
 				D3D4DB001E3E24FD00464A2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

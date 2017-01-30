@@ -9,17 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  var text: String?
 
+  @IBOutlet weak var textView: UITextView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    textView.text = text
+    automaticallyAdjustsScrollViewInsets = false
+    
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
 
 }
 
