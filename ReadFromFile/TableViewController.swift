@@ -11,16 +11,19 @@ import UIKit
 class TableViewController: UITableViewController {
   
   var textArray = [String]()
+  var fileName: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      readFromFile()
+      readFromFile("text.txt")
       
   }
 
-  func readFromFile() {
-    if let path = Bundle.main.path(forResource: "text", ofType: "txt") {
+  func readFromFile(_ fileName: String) {
+    
+    let nameComponents: [String] = fileName.components(separatedBy: ".")
+    if let path = Bundle.main.path(forResource: nameComponents[0], ofType: nameComponents[1]) {
       if let text = try? String(contentsOfFile: path) {
         textArray = text.components(separatedBy: "\n")
       }
